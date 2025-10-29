@@ -50,7 +50,11 @@ fetch('Schlüsselwörter.txt')
             {
                 keywords: ['preis', 'angebot'],
                 response: 'Neugierig auf den Preis? Gib mir ein paar Infos zu deinem Auto, und Wir kaufen dein Auto.de macht dir ein Angebot, das passt! What fährst du so?'
-            }
+            },
+            {
+                keywords: [penis, vagina ],
+                response: 'nicht pervers werden!!!'
+            }        
         ];
     });
 
