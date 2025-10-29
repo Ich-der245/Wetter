@@ -17,7 +17,9 @@ Infos,information|du hast ein super Auto dafür kriegst du mindestens 17.987€
 # Format: Schlüsselwörter,kommagetrennt|Antwort
 # Neue Zeilen hinzufügen, um den Bot zu erweitern!
 
+
 auto,wagen,car,fahrzeug|Dein Auto? Egal, ob Kleinwagen, SUV oder Luxuskarre – wir kaufen dein Auto! 😎 Sag mal, was für’n Schlitten steht in deiner Garage?
+penis,vagina, lutschen,| Werd mal nicht pervers, du kleiner hur*nshon
 verkaufen,verkauf,loswerden|Willst du deinen Wagen loswerden? Perfekt! Bei Wir kaufen dein Auto.de kriegst du in null Komma nichts ein faires Angebot. Was fährst du denn so?
 schnell,schneller,fix|Schnell wie ich auf der Rennstrecke! 🏎️ Wir kaufen dein Auto.de macht’s in Rekordzeit – Angebot einholen, fertig! Was liegt an?
 hallo,hi,hey,na|Yo, wie geht’s? Ich bin Ralf Schumacher, immer auf der Überholspur! 😜 Was geht mit deinem Auto? Wir kaufen dein Auto.de nimmt alles!
