@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.chatbot {
+    width: 90vw;
+    max-width: 500px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    margin: 20px;
+}
+
+.chat-header {
+    background: #003087;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.chat-body {
+    height: 60vh;
+    max-height: 600px;
+    overflow-y: auto;
+    padding: 15px;
+    background: #f9f9f9;
+}
+
+.message {
+    margin-bottom: 15px;
+}
+
+.bot-message p {
+    background: #e6f3ff;
+    padding: 12px;
+    border-radius: 15px 15px 15px 0;
+    max-width: 80%;
+    display: inline-block;
+    font-size: 1.1rem;
+}
+
+.user-message p {
+    background: #003087;
+    color: white;
+    padding: 12px;
+    border-radius: 15px 15px 0 15px;
+    max-width: 80%;
+    margin-left: auto;
+    display: inline-block;
+    font-size: 1.1rem;
+}
+
+.chat-footer {
+    display: flex;
+    padding: 15px;
+    border-top: 1px solid #ccc;
+    background: #fff;
+}
+
+#user-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-right: 10px;
+    font-size: 1.1rem;
+}
+
+#send-button {
+    padding: 10px 20px;
+    background: #003087;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+#send-button:hover {
+    background: #002060;
+}
+
+.save-button {
+    display: block;
+    margin: 15px auto;
+    padding: 10px 20px;
+    background: #003087;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.save-button:hover {
+    background: #002060;
+}
+
+@media screen and (max-width: 360px) {
+    .chatbot {
+        width: 95vw;
+        margin: 10px;
+    }
+    .chat-body {
+        height: 50vh;
+    }
+    .bot-message p, .user-message p, #user-input, #send-button, .save-button {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .chat-body {
+        height: 50vh;
+    }
+}
